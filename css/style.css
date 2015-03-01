@@ -74,7 +74,7 @@ input {
 	opacity: .6;
 }
 .hero {
-	background: url('../img/bg.jpg') center center;
+	background: url('../img/bg_sm.jpg') center center;
 	background-size: cover;
 }
 .hero .container {

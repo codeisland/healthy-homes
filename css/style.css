@@ -61,17 +61,27 @@ input {
 .search {
 	background: #8BB936;
 	display: inline-block;
-	padding: 3px 60px 3px 3px;
+	padding: 3px;
 	position: relative;
+}
+.search:hover {
+	background-color: #749832 ;
 }
 .search img {
 	height: 30px;
 	position: absolute;
 	right: 15px;
 	top: 5px;
+	display: none
 }
-.search a:hover {
-	opacity: .6;
+.search input[type="submit"] {
+	background: url('../img/search.svg') no-repeat center center;
+	background-size: contain;
+	width: 50px;
+	border: none;
+	padding: 6px 0;
+	position: relative;
+	top: 3px;
 }
 .hero {
 	background: url('../img/bg_sm.jpg') center center;

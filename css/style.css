@@ -84,12 +84,11 @@ input {
 	top: 3px;
 }
 .hero {
-	background: url('../img/bg_sm.jpg') center center;
+	background: url('../img/bg_sm_screened.jpg') center center;
 	background-size: cover;
 }
 .hero .container {
 	text-align: center;
-	background: rgba(255, 255, 255, 0.75);
 	display: table;
 	width: 100%;
 	margin: 0;
